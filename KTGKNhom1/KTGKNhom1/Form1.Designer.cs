@@ -32,7 +32,7 @@
             this.textboxusername = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.textboxmatkhau = new System.Windows.Forms.TextBox();
-            this.btnlogin = new System.Windows.Forms.Button();
+            this.login = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -68,22 +68,22 @@
             this.textboxmatkhau.Size = new System.Drawing.Size(220, 22);
             this.textboxmatkhau.TabIndex = 3;
             // 
-            // btnlogin
+            // login
             // 
-            this.btnlogin.Location = new System.Drawing.Point(265, 170);
-            this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(101, 33);
-            this.btnlogin.TabIndex = 4;
-            this.btnlogin.Text = "đăng nhập";
-            this.btnlogin.UseVisualStyleBackColor = true;
-            this.btnlogin.Click += new System.EventHandler(this.button1_Click);
+            this.login.Location = new System.Drawing.Point(265, 170);
+            this.login.Name = "login";
+            this.login.Size = new System.Drawing.Size(101, 33);
+            this.login.TabIndex = 4;
+            this.login.Text = "llll";
+            this.login.UseVisualStyleBackColor = true;
+            this.login.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(467, 295);
-            this.Controls.Add(this.btnlogin);
+            this.Controls.Add(this.login);
             this.Controls.Add(this.textboxmatkhau);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textboxusername);
@@ -101,7 +101,7 @@
         private System.Windows.Forms.TextBox textboxusername;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textboxmatkhau;
-        private System.Windows.Forms.Button btnlogin;
+        private System.Windows.Forms.Button login;
     }
 }
 
